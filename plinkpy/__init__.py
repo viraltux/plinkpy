@@ -1,8 +1,7 @@
 import subprocess
 import os
-#os.chdir('/home/fran/workspace/plink/plinkpy-pkg/bin')
 this_dir, this_filename = os.path.split(__file__)
-os.chdir(this_dir+'/../bin')
+os.chdir(this_dir+'/bin')
 
 def plink(args_string):
     #plink("--file toy --freq --out toy_analysis")
